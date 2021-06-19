@@ -6,6 +6,8 @@
    --secondary-font: 'Raleway', sans-serif;
 
 }
+
+
 .list {
    list-style: none;
 }
@@ -36,6 +38,7 @@ body {
 
 
 /* ======== HEADER ========*/
+
 .colortext {
 font-family: var(--secondary-font);
 font-weight: bold;
@@ -78,6 +81,8 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.02em;
+color: #757575;
+;
 }
 
 .tel-link { 
@@ -85,6 +90,7 @@ letter-spacing: 0.02em;
    font-size: 14px;
    line-height: 1.15;
    letter-spacing: 0.02em;
+   color: #757575;
 }
 
 .mail-link:hover,
@@ -100,6 +106,10 @@ letter-spacing: 0.02em;
 /* ======== END HEADER ========*/
 
 /* ======== HERO  ========*/
+
+.hero {
+   background: #2F303A;
+}
 
 .hero-title {
 font-weight: 900;
@@ -123,6 +133,7 @@ cursor: pointer;
 background: var(--accent-color);
 color: #FFFFFF;
 
+
 }
 
 .modal-btn:hover,
@@ -139,14 +150,120 @@ background: #188CE8;
    line-height: 1.14;
    letter-spacing: 0.03em;
    text-transform: uppercase;
+   color: #212121;
 }
 .advantages-text {
 font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
-/* or 171% */
 letter-spacing: 0.03em;
 
 color: #757575;
 }
 /* ======== END ADVANTAGES ========*/
+
+/* ======== WHAT ARE WE DOING  ========*/
+.title {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.67;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+/* ======== END WHAT ARE WE DOING  ========*/
+
+/* ======== OUR TEAM  ========*/
+
+.name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+}
+.profession {
+font-weight: normal;
+font-size: 16px;
+line-height: 1,19;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.photo {
+background: url(4853.jpg);
+border-radius: 0px;
+}
+
+/* ======== FOOTER  ========*/
+
+.footer {
+   background: #2F303A;
+}
+
+.logo-footer {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.adress{
+font-weight: normal;
+font-size: 14px;
+line-height: 2;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.adress:hover,
+.adress:focus {
+   color: var(--accent-color);
+}
+
+
+.mail {
+font-weight: normal;
+font-size: 14px;
+line-height: 2;
+/* or 171% */
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.mail:hover,
+.mail:focus {
+   color: var(--accent-color);
+}
+
+
+.phone {
+font-weight: normal;
+font-size: 14px;
+line-height: 2;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.phone:hover,
+.phone:focus {
+   color: var(--accent-color);
+}
+
+address {
+   font-style: normal
+ }
+/* ======== END FOOTER  ========*/
