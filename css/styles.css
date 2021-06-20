@@ -134,6 +134,7 @@ background: var(--accent-color);
 color: #FFFFFF;
 
 
+
 }
 
 .modal-btn:hover,
@@ -267,3 +268,42 @@ address {
    font-style: normal
  }
 /* ======== END FOOTER  ========*/
+
+
+/* ======== PORTPHOLIO ========*/
+.filter-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+/* identical to box height, or 162% */
+cursor: pointer;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+   color: #FFFFFF;
+   background: #2196F3;
+}
+
+.card-name {
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+}
+.card-text {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+/* identical to box height, or 187% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+
