@@ -165,10 +165,10 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-bottom: 94px;
 }
 
 .hero-title {
-  text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -201,7 +201,26 @@ body {
 /* ======== END HERO ========*/
 
 /* ======== ADVANTAGES  ========*/
+.advantages {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+}
+
+.item:nth-child(4n) {
+  margin-right: 0;
+}
+
 .advantages-title {
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
