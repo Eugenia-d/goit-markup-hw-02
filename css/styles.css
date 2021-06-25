@@ -239,12 +239,20 @@ body {
 /* ======== END ADVANTAGES ========*/
 
 /* ======== WHAT ARE WE DOING  ========*/
+
 .title {
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.affairs {
+   display: flex;
+   justify-content: space-between;
+}
 }
 /* ======== END WHAT ARE WE DOING  ========*/
 
