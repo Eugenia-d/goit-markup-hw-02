@@ -176,11 +176,12 @@ body {
   text-transform: uppercase;
   background: var(--background-color);
   color: #ffffff;
-  width: 696px;
+
   font-family: var(--main-font);
 }
 
 .modal-btn {
+  margin-top: 30px;
   height: 50px;
   border: none;
   border-radius: 4px;
