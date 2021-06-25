@@ -1,47 +1,49 @@
-
 :root {
-   --accent-color: #2196F3;
-   --primary-text-color: #212121;
-   --background-color: #2F303A;
-   --main-font: 'Roboto', sans-serif;
-   --secondary-font: 'Raleway', sans-serif;
-
+  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --background-color: #2f303a;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6,p {
-   margin-top: 0;
-   margin-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-ul,ol {
-   margin-top: 0;
-   margin-bottom: 0;
-   padding-left: 0;
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 img {
-   display: block;
+  display: block;
 }
 
 .list {
-   list-style: none;
+  list-style: none;
 }
 .link {
-   text-decoration: none;
+  text-decoration: none;
 }
-
 
 body {
-   color: var(--primary-text-color);
-   font-family: var(--main-font);
-   margin: 0;
-
+  color: var(--primary-text-color);
+  font-family: var(--main-font);
+  margin: 0;
 }
 
-.container {   
-   width: 1200px;
-   padding-left: 15px;
-   padding-right: 15px;
-   margin: 0 auto;
-   
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /* цвет основного текста #212121 */
@@ -58,105 +60,100 @@ body {
    color: blueviolet;
 } */
 
-
 /* ======== HEADER ========*/
 
 .head {
-   padding-top: 25px;
-   padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .head-container {
-display: flex;
-justify-content: space-between;
-} 
+  display: flex;
+  justify-content: space-between;
+}
 .navigation {
-   display: flex;
-   align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .list-contact {
-   display: flex;
-   align-items: center;
-  
-   
+  display: flex;
+  align-items: center;
 }
 
 .colortext {
-font-family: var(--secondary-font);
-font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
-/* identical to box height */
-letter-spacing: 0.03em;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+  letter-spacing: 0.03em;
 
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 .logo {
-margin-right: 95px;
-font-family: var(--secondary-font);
-font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
-/* identical to box height */
-letter-spacing: 0.03em;
-color: #000000;
+  margin-right: 95px;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #000000;
 }
 
 .menu-list {
-   display: flex;
-   align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .menu-list .item:not(:last-child) {
-   margin-right: 40px;
+  margin-right: 40px;
 }
 
-
 .menu-link {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.15;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
 
-color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .menu-link.current {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
-
 
 .menu-link:hover,
 .menu-link:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .mail-link {
-margin-right: 50px;
+  margin-right: 50px;
 
-font-weight: 500;
-font-size: 14px;
-line-height: 1.15;
-letter-spacing: 0.02em;
-color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
-.tel-link { 
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 1.15;
-   letter-spacing: 0.02em;
-   color: #757575;
+.tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .mail-link:hover,
 .mail-link:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .tel-link:hover,
 .tel-link:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* ======== END HEADER ========*/
@@ -164,210 +161,196 @@ color: #757575;
 /* ======== HERO  ========*/
 
 .hero {
-   background: #2F303A;
-   text-align: center;
-   padding-top: 200px;
-   padding-bottom: 200px;
- 
+  background: #2f303a;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
-text-align: center;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-background: var(--background-color);
-color: #FFFFFF;
-width: 696px;
-font-family: var(--main-font);
-
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: var(--background-color);
+  color: #ffffff;
+  width: 696px;
+  font-family: var(--main-font);
 }
 
-
 .modal-btn {
-
-height: 50px;
-border: none;
-border-radius: 4px;
-padding: 10px 32px;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.06em;
-cursor: pointer;
-background: var(--accent-color);
-color: #FFFFFF;
-
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  background: var(--accent-color);
+  color: #ffffff;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-background: #188CE8;
+  background: #188ce8;
 }
 /* ======== END HERO ========*/
 
-
 /* ======== ADVANTAGES  ========*/
 .advantages-title {
-   font-weight: bold;
-   font-size: 14px;
-   line-height: 1.14;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: #212121;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 .advantages-text {
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 /* ======== END ADVANTAGES ========*/
 
 /* ======== WHAT ARE WE DOING  ========*/
 .title {
-font-weight: bold;
-font-size: 36px;
-line-height: 1.67;
-text-align: center;
-letter-spacing: 0.03em;
-
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* ======== END WHAT ARE WE DOING  ========*/
 
 /* ======== OUR TEAM  ========*/
 
 .name {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-/* identical to box height */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.03em;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .profession {
-font-weight: normal;
-font-size: 16px;
-line-height: 1,19;
-/* identical to box height */
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 19;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.03em;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 
 .photo {
-background: url(4853.jpg);
-border-radius: 0px;
+  background: url(4853.jpg);
+  border-radius: 0px;
 }
 
 /* ======== FOOTER  ========*/
 
 .footer {
-   background: #2F303A;
+  background: #2f303a;
 }
 
 .logo-footer {
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
-.adress{
-font-weight: normal;
-font-size: 14px;
-line-height: 2;
-/* or 171% */
-letter-spacing: 0.03em;
-color: #FFFFFF;
+.adress {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .adress:hover,
 .adress:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
-
 .mail {
-font-weight: normal;
-font-size: 14px;
-line-height: 2;
-/* or 171% */
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .mail:hover,
 .mail:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
-
 .phone {
-font-weight: normal;
-font-size: 14px;
-line-height: 2;
-/* or 171% */
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+  /* or 171% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .phone:hover,
 .phone:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 address {
-   font-style: normal
- }
+  font-style: normal;
+}
 /* ======== END FOOTER  ========*/
-
 
 /* ======== PORTPHOLIO ========*/
 .filter-btn {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-/* identical to box height, or 162% */
-cursor: pointer;
-text-align: center;
-letter-spacing: 0.03em;
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
-   color: #FFFFFF;
-   background: #2196F3;
+  color: #ffffff;
+  background: #2196f3;
 }
 
 .card-name {
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .card-text {
-font-weight: normal;
-font-size: 16px;
-line-height: 1.87;
-/* identical to box height, or 187% */
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
-
+  color: #757575;
 }
-
