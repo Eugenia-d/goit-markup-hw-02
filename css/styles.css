@@ -8,6 +8,18 @@
 
 }
 
+h1,h2,h3,h4,h5,h6,p {
+   margin-top: 0;
+   margin-bottom: 0;
+}
+ul,ol {
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-left: 0;
+}
+img {
+   display: block;
+}
 
 .list {
    list-style: none;
@@ -22,6 +34,14 @@ body {
    font-family: var(--main-font);
    margin: 0;
 
+}
+
+.container {   
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 0 auto;
+   
 }
 
 /* цвет основного текста #212121 */
@@ -41,6 +61,26 @@ body {
 
 /* ======== HEADER ========*/
 
+.head {
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+.head-container {
+display: flex;
+justify-content: space-between;
+} 
+.navigation {
+   display: flex;
+   align-items: center;
+}
+
+.list-contact {
+   display: flex;
+   align-items: center;
+  
+   
+}
+
 .colortext {
 font-family: var(--secondary-font);
 font-weight: bold;
@@ -52,6 +92,7 @@ letter-spacing: 0.03em;
 color: var(--accent-color);
 }
 .logo {
+margin-right: 95px;
 font-family: var(--secondary-font);
 font-weight: bold;
 font-size: 26px;
@@ -60,8 +101,10 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 color: #000000;
 }
+
 .menu-list {
    display: flex;
+   align-items: center;
 }
 
 .menu-list .item:not(:last-child) {
@@ -89,12 +132,13 @@ color: var(--primary-text-color);
 }
 
 .mail-link {
+margin-right: 50px;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.02em;
 color: #757575;
-;
 }
 
 .tel-link { 
@@ -121,11 +165,14 @@ color: #757575;
 
 .hero {
    background: #2F303A;
-}
-.hero {
    text-align: center;
+   padding-top: 200px;
+   padding-bottom: 200px;
+ 
 }
+
 .hero-title {
+text-align: center;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -133,19 +180,24 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 background: var(--background-color);
 color: #FFFFFF;
+width: 696px;
+font-family: var(--main-font);
+
 }
+
+
 .modal-btn {
-font-weight: bold;
+
+height: 50px;
+border: none;
+border-radius: 4px;
+padding: 10px 32px;
 font-size: 16px;
 line-height: 1.88;
-display: flex;
-align-items: center;
 letter-spacing: 0.06em;
 cursor: pointer;
 background: var(--accent-color);
 color: #FFFFFF;
-
-
 
 }
 
