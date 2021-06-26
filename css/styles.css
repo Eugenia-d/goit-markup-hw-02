@@ -391,11 +391,16 @@ address {
 /* ======== END FOOTER  ========*/
 
 /* ======== PORTPHOLIO ========*/
-.filter-btn {
-   align-items:center
-  width: calc((100% - 32px) / 5);
+.filter {
+  align-items: center;
   margin-right: 8px;
+}
 
+.filter:nth-child(5n) {
+  margin-right: 0;
+}
+
+.filter-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -409,10 +414,6 @@ address {
   border-radius: 4px;
 }
 
-.filter-btn:nth-child(5n) {
-  margin-right: 0;
-}
-
 .portfolio-list-button {
   display: flex;
   justify-content: center;
@@ -424,8 +425,23 @@ address {
   color: #ffffff;
   background: #2196f3;
 }
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--card-set-gap));
+  margin-left: calc(-1 * var(--card-set-gap));
+}
 
-.card-name {
+.card {
+  flex-basis: calc(100% / 4 - var(--card-set-gap));
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+}
+
+.text {
+  padding: 20px 24px;
+}
+*/ .card-name {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
