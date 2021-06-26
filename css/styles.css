@@ -48,6 +48,10 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* вторичный цвет футтера rgba(255, 255, 255, 0.6) */
@@ -67,6 +71,7 @@ body {
 .head {
   padding-top: 25px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 .head-container {
   display: flex;
@@ -108,8 +113,8 @@ body {
   align-items: center;
 }
 
-.menu-list .item:not(:last-child) {
-  margin-right: 40px;
+.menu-list .item-head:not(:last-child) {
+  margin-right: 50px;
 }
 
 .menu-link {
@@ -167,7 +172,6 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -204,11 +208,10 @@ body {
 
 /* ======== ADVANTAGES  ========*/
 .advantages {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
 }
 
-.list {
+.list-advantages {
   display: flex;
   flex-wrap: wrap;
 }
@@ -242,9 +245,9 @@ body {
 
 /* ======== WHAT ARE WE DOING  ========*/
 
-.what-we-do {
+/* .what-we-do {
   margin-bottom: 94px;
-}
+} */
 
 .title {
   margin-bottom: 50px;
@@ -264,8 +267,6 @@ body {
 
 /* ======== OUR TEAM  ========*/
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background: #f5f4fa;
 }
 .card-item {
@@ -321,6 +322,8 @@ body {
 
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -333,6 +336,11 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
+.list-adress {
+  margin-top: 20px;
+}
+
 .adress {
   font-weight: normal;
   font-size: 14px;
